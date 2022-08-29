@@ -24,3 +24,6 @@ console.log(results)
 nosex=results[0].pose.nose.x-150
 nosey=results[0].pose.nose.y-60
 }
+function TakeSnapshot(){
+    save("Clownnose.png")
+}
